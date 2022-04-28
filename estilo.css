@@ -1,0 +1,361 @@
+
+*{
+    margin :0;
+    padding :0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+    font-family: lobster, cursive;
+    font-weight : 100px;  
+    font-size : 20px; 
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.bodyinicio{
+    background-image: url(./imagenes/lambofondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+    
+    .bodycontact{
+        background-image: url(./imagenes/lambocon.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color: #fff;
+    }
+    .bodygalery{
+        background-image: url(./imagenes/lambogale.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color: #fff;
+    }
+    
+    .bodynos{
+        background-image: url(./imagenes/lambonos.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color: #fff;
+    }
+    
+    
+    
+    
+    .header{
+        background: rgb(20, 20, 20);
+        color: #fff;
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        
+    }
+    .header a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .logo-nav-container{
+        display: flex;
+        justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    letter-spacing: 15px;
+    font-size: 1.3rem;
+    width: 50%;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a{
+    display: flex;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.navigation ul li a:hover{
+    background: #4a4a4a;
+}
+
+.main {
+    padding-top: 12rem;
+}
+
+.call{
+    float: right;
+    height: auto;
+    width: 40%;
+    color: #fff;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.call h1{
+    color:#40835e;
+    margin-bottom: 20px;
+}
+.call p{
+    margin-bottom: 20px;
+}
+.call a{
+    color: black;
+    text-decoration: none;
+    background-color: #31384A;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 3px solid #fff;
+}
+.call a:hover{
+    background-color: #40835e;
+}
+
+
+
+
+h2{
+    text-align: center;
+    background-color: #4a4a4a;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    padding: 10px 0px;
+}
+
+footer{
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    text-align: center;
+}
+footer p{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+}
+footer i{
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 15px;
+}
+.subir{
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: 5px solid #fff;
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px #333;
+}
+
+
+
+.section{
+    height: 500px;
+    width: 100%;
+    background-color: transparent
+}
+
+
+/*Inicio*/
+
+
+
+.container{
+    width: 70%;
+    margin: 2em auto;
+    padding: 1em;
+}
+
+.container h1{
+    width: 70%;
+    
+}
+
+/* FLOAT */
+
+.float-left{
+    background: #2b1919;
+    color:#fff;
+    padding: 1em;
+}
+.float-right{
+    background: #3a2323;
+    color:#fff;
+    padding: 1em;
+}
+
+/*Imagenes*/    
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.container_img{
+    width: 45%;
+    box-shadow: 10px 10px 10px 0px rgba(224, 211, 211, 0.29);
+    display: grid;
+    grid-template-columns: 200px 100px 200px;
+}
+
+/*Section 2*/
+.aboutUs{
+    width: 100%;
+    margin: 2rem auto;
+}
+.aboutUs_container{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.ilustracion{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.imagIlustrativa {
+    width: 300px;
+    margin: 5px;
+    position:sticky;
+    float: right;
+}
+footer {
+    width: 100%;
+    height: 100px;
+    margin-top: 400px;
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4) !important; 
+    padding: 10px 20px;
+    box-sizing:  border-box;
+    margin-top: 20px;
+    border-radius:7px;
+    
+}
+.h2contact{
+    color: rgb(8, 7, 7);
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.tituleCt{
+    text-align: center;
+}
+.buttoncontact, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font: 17px;
+    border: none;
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    background: rgb(17, 15, 15);
+}
+#boton{
+    background: #31384A;
+    color: #fff;
+    padding: 5px;
+}
+.CRFD{
+        background:rgb(17, 17, 20)
+}
+
+
+
+
+
+/* Grilla*/
+.sectiongalery{
+    margin-top: 5rem;
+}
+.grid{
+    display: grid;
+    width: 100%;
+    padding: 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0!important;
+}
+
+
+.tostadas{
+    columns: 0/2;
+    width: 100%;
+}
+.brunch{
+    columns: 1/2;
+    width: 100%
+}
+.ensaladas{
+    columns: 2/2;
+    width: 100%
+}
+.panqueques{
+    columns: 0/2;
+    width: 100%
+}
+.almuerzo{
+    columns: 1/2;
+    width: 100%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
